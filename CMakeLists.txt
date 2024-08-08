@@ -214,3 +214,4 @@ set_target_properties(${PROJECT_NAME}
 		RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/bin"
 		OUTPUT_NAME "${OUTPUT_NAME}"
 )
+add_custom_target(godotcpp_generated_files DEPENDS ${GENERATED_FILES_LIST})
